@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item 
+        android:id="@+id/menuClose"
+        android:title="close"
+        android:showAsAction="always"
+        
+        />
+
+     <item 
+        android:id="@+id/menuNext"
+        android:title="next"
+        android:showAsAction="always"
+        
+        />
+    
+    <item 
+        android:id="@+id/menuHelp"
+        android:title="Help"
+        android:showAsAction="always"
+        
+        />
+    
+    <item 
+        android:id="@+id/menuSetting"
+        android:title="Setting"
+        android:showAsAction="always"
+        
+        />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    
+    android:duration="2000"
+    android:fromXDelta="1"
+    android:toXDelta="200"
+    android:fromYDelta="1"
+    android:toYDelta="1"
+    android:repeatCount="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+</translate>

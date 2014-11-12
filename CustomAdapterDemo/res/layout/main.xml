@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:background="#00ABCD" >
+        	<EditText 
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+				android:hint="Enter Name"
+        	    android:id="@+id/editText1"
+        	    />
+        
+        	<EditText 
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+				android:hint="Age"
+        	    android:id="@+id/editText2"
+        	    />
+        	
+        	<Button 
+        	    android:layout_height="wrap_content"
+				android:layout_width="100dp"
+				android:text="ADD"
+				android:id="@+id/button1"
+        	    />
+        </LinearLayout>
+        
+    	<ListView 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="0dp"
+    	    android:layout_weight="1"
+    	    android:id="@+id/listView1"
+    	    android:background="#FFFF00"
+    	    >
+    	    
+    	</ListView>    
+
+</LinearLayout>

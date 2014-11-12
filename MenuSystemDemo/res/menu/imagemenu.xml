@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/menuMyball"
+        android:title="MyBall"
+    	/>
+	
+     <item 
+        android:id="@+id/menuTeddy"
+        android:title="MyTeddy"
+        />
+      
+      <item 
+        android:id="@+id/menuGreenBlack"
+        android:title="Green Black Background"
+        />
+      
+    
+</menu>
